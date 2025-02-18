@@ -1,0 +1,13 @@
+{
+  "Name": "Arboretum",
+  "Author": "Danehan",
+  "Version": "0.0.1",
+  "Description": "A buildable arboretum cutomizable with additional rooms for your modded trees as well",
+  "UniqueID": "Danehan.ArboretumSF",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.SolidFoundations",
+    "MinimumVersion": "3.0.0"
+  },
+  "Dependencies":[]
+}

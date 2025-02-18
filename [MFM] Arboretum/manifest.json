@@ -1,0 +1,34 @@
+{
+  "Name": "[MFM] Arboretum",
+  "Author": "Danehan",
+  "Version": "0.0.1",
+  "Description": "A buildable arboretum cutomizable with additional rooms for your modded trees as well",
+  "UniqueID": "Danehan.ArboretumMFM",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "DINGUS.MainFrameworkMod",
+    "MinimumVersion": "1.18.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Danehan.ArboretumSF",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Rafseazz.RidgesideVillage",
+      "IsRequired": false,
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false,
+    },
+    {
+      "UniqueID": "Cornucopia.MoreCrops",
+      "IsRequired": false,
+    },
+    {
+      "UniqueID": "Lumisteria.MtVapius",
+      "IsRequired": false,
+    }
+  ]
+}

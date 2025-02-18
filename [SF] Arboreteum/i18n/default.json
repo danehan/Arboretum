@@ -1,0 +1,10 @@
+{
+  //Building Names
+  "Building.Name.ArboretumSmall": "Small Arboretum",
+  "Building.Name.ArboretumMedium": "Medium Aboretum",
+  "Building.Name.ArboretumLarge": "Large Arboretum",
+  //Building Descriptions
+  "Building.Description.ArboretumSmall": "An upgradeable greenhouse building to plant all your trees for all your tree needs. Starts with 9 Fruit Tree Plots",
+  "Building.Description.ArboretumMedium": "Adds a wing to the arboretum for tappable trees. Adds 21 additional plots for all your tapping needs.",
+  "Building.Description.ArboretumLarge": "Expands the tappale tree wing to 42 plots as well as adding another wing to the arboretum for Exotic Trees found in Ridgeside Village,"
+}

@@ -1,0 +1,98 @@
+[
+	{
+		"Id": "Arboretum.Welcome",
+		"GroupId": "Arboretum.FergillRepublicArborealSociety",
+    "Title": "Mail.Arboretum.Welcome",
+		"Text": "Mail.Arboretum.WelcomeText",
+    //Aesthetics
+    "LetterBG": "assets/FerngillRepublicBG.png",
+    "CustomTextColor": "SeaGreen",
+    //Once
+    "Repeatable": false,
+    "AutoOpen": false,
+    //Conditions For Delivery
+    "Date": "6 spring Y1",
+    "SkillConditions": [
+      {
+        "SkillName": "Foraging",
+        "SkillLevel": 1,
+      }
+    ],
+	},
+  {
+    "Id": "Arboretum.GreenhouseBuilt",
+    "GroupId": "Arboretum.FergillRepublicArborealSociety",
+    "Title": "Mail.Arboretum.GreenhouseBuilt",
+    "Text": "Mail.Arboretum.GreenhouseBuiltText",
+    //Aesthetics
+    "LetterBG": "assets/FerngillRepublicBG.png",
+    "CustomTextColor": "SeaGreen",
+    //Once
+    "Repeatable": false,
+    "AutoOpen": false,
+    //Conditions
+    "When": {
+      "HasFlag": "ccPantry"
+    }
+  },
+  {
+    "Id": "Arboretum.Built",
+    "GroupId": "Arboretum.FergillRepublicArborealSociety",
+    "Title": "Mail.Arboretum.Built",
+    "Text": "Mail.Arboretum.BuiltText",
+    //Aesthetics
+    "LetterBG": "assets/FerngillRepublicBG.png",
+    "CustomTextColor": "SeaGreen",
+    //Once
+    "Repeatable": false,
+    "AutoOpen": false,
+    //Conditions
+    "Buildings": [
+      "Danehan.ArboretumSF.ArboretumSmall"
+    ]
+  },
+  {
+    "Id": "Arboretum.Tapper",
+    "GroupId": "Arboretum.FergillRepublicArborealSociety",
+    "Title": "Mail.Arboretum.Tapper",
+    "Text": "Mail.Arboretum.TapperText",
+    //Aesthetics
+    "LetterBG": "assets/FerngillRepublicBG.png",
+    "CustomTextColor": "SeaGreen",
+    //Once
+    "Repeatable": false,
+    "AutoOpen": false,
+    //Conditions
+    "SkillConditions": [
+      {
+        "SkillName": "Foraging",
+        "SkillLevel": 4
+      },
+    ],
+    "Buildings": [
+      "Danehan.ArboretumSF.ArboretumSmall"
+    ]
+  },
+  {
+    "Id": "Arboretum.TapperExpansion"
+    "GroupId": "Arboretum.FergillRepublicArborealSociety",
+    "Title": "Mail.Arboretum.TapperExpansion",
+    "Text": "Mail.Arboretum.TapperExpansionText",
+    //Aesthetics
+    "LetterBG": "assets/FerngillRepublicBG.png",
+    "CustomTextColor": "SeaGreen",
+    //Once
+    "Repeatable": false,
+    "AutoOpen": false,
+    //Conditions
+    "SkillConditions": [
+      {
+        "SkillName": "Foraging",
+        "SkillLevel": 4
+      },
+    ],
+    "Buildings": [
+      "Danehan.ArboretumSF.ArboretumMedium"
+    ]
+  }
+]

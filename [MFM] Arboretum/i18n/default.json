@@ -1,0 +1,15 @@
+{
+  //Letter Titles in Collection
+  "Mail.Arboretum.Welcome": "Welcome to the Ferngill Republic Arboreal Society",
+  "Mail.Arboretum.GreenhouseBuilt": "Ferngill Republic Arboreal Society: Arboretums",
+  "Mail.Arboretum.Built": "Arboreal Society Follow-Up",
+  "Mail.Arboretum.Tapper": "Tapping Trees",
+  "Mail.Arboretum.TapperExpansion": "Ferngill Republic Arboreal Society: Arboretum Upgrades",
+
+  //Letter Contents
+  "Mail.Arboretum.WelcomeText": "Dear @^We at the Ferngill Republic Arboreal Society are excited in your interests in agroforestry and are invested in helping your grow. We have sent you a sapling to get you started along your agroforesty career!",
+  "Mail.Arboretum.GreenhouseBuiltText": "Dear @^We at the Society have taken notice that your Greenhouse appears magically fixed. Our Society has done some thinking and thinks its time to share some building plans with you. Admin has mailed some plans over to your local builder to allow you to build an arboretum to plant your trees so you can harvest fruit all year long. Happy Planting!",
+  "Mail.Arboretum.Built": "Dear @^We are pleased you have taken our offer. Due to the Ferngill Republic wanting to subsidize agroforesty to help out with local farmers (due to import bans from the Gotoro Empire) you will find some seed money attached.",
+  "Mail.Arboretum.TapperText": "Dear @^Tapping trees for syrups can not only be profitable but helpful towards your farming career. Many farm",
+  "Mail.Arboretum.TapperExpansionText": "",
+}

@@ -1,0 +1,116 @@
+{
+  "Id": "Danehan.ArboretumSF.ArboretumMedium"
+  "Name": "Building.Name.ArboretumMedium"
+  "Description": "Building.Description.ArboretumMedium"
+  //Aesthetics
+  "SourceRect": //Add later "x y width height",
+  "DrawShadow": true,
+  "SeasonOffset": //SourceRect WH 0,0,
+  "UpgradeSignTile": //Add later XY "0, 0",
+  "UpgradeSignHeight": //Add later 0.0,
+  //Lights
+  "Lights": [
+    {
+      "TextureID": //Window Texture? 2,
+      "Tile": {
+        "X": //Add Later 0,
+        "Y": //Add Later 0
+      },
+      "TileOffsetInPixels": {
+        "X": 0,
+        "Y": 0
+      },
+      "Color": [255,255,255,255],
+      "Radius": {
+        "RandomValue": {
+          "Values": [1.5, 1.6, 1.4]
+        },
+      },
+      "UpdateIntervalMilliseconds": {
+        "RandomRange": {
+          "Min": 800,
+          "Max": 2000
+        }
+      }
+    }
+  ],
+  //Custom Aesthetics
+  "PaintMasks": [
+    {
+      "Name": "Ivy",
+      "MinBrightness": -10,
+      "MaxBrightness": 5
+    }
+  ],
+  "Skins": [
+    {
+      "ID": "Overgrown",
+      "Name": "Overgrown Arboretum",
+      "Description": "Looks like it was built ages ago.",
+      "Texture": "overgrown",
+      "PaintMaskTexture": "overgrown_mask",
+      "PaintMasks": [
+        {
+          "Name": "Ivy",
+          "MinBrightness": -10,
+          "MaxBrightness": 5
+        }
+      ]
+    }
+  ],
+  //Indoor Maps
+  "IndoorMap": "ArboretumMedium",
+  "IndoorMapType": "StardewValley.Locations.BuildableGameLocation",
+  //Outdoor Maps
+  "Size": {
+    "X": //replace,
+    "Y": //replace
+  },
+  "HumanDoor": {
+    "X": //replace,
+    "Y": //replace
+  },
+  "CollisionMap": //replace "",
+  //Mail Sent on Build
+  "AddMailOnBuild": //Add at Later Date "",
+  //Cost at Robin
+  "Builder": "Robin",
+  "BuildCost": 50000,
+  "BuildMaterial": [
+    {
+      //Granite
+      "ItemID": 569,
+      "Amount": 10
+    },
+    {
+      //Refined Quartz
+      "ItemID": 338,
+      "Amount": 30
+    },
+    {
+      //Iron Bars
+      "ItemID": 335,
+      "Amount": 10
+    }
+  ],
+  //Time to Build
+  "BuildingDays": 2,
+  "BuildingToUpgrade": "Danehan.ArboretumSF.ArboretumSmall",
+  //Move Items
+  "IndoorItemMoves": [
+    {
+      "Source": {
+        "X": //Add Num 0,
+        "Y": //Add Num 0
+      },
+      "Destination":{
+        "X": //Add Num 0,
+        "Y": //Add Num 0
+      },
+      "Size":{
+        "X": 1,
+        "Y": 1
+      }
+    }
+  ],
+}
