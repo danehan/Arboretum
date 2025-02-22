@@ -1,4 +1,5 @@
 [
+//Ferngill Republic Arboreal Society
 	{
 		"Id": "Arboretum.Welcome",
 		"GroupId": "Arboretum.FergillRepublicArborealSociety",
@@ -6,7 +7,8 @@
 		"Text": "Mail.Arboretum.WelcomeText",
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
-    "CustomTextColor": "SeaGreen",
+    "CustomTextColorName": "OliveDrab",
+		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -26,14 +28,15 @@
     "Text": "Mail.Arboretum.GreenhouseBuiltText",
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
-    "CustomTextColor": "SeaGreen",
+    "CustomTextColorName": "OliveDrab",
+		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
     //Conditions
-    "When": {
-      "HasFlag": "ccPantry"
-    }
+    "MailRecieved": [
+			"ccPantry"
+		]
   },
   {
     "Id": "Arboretum.Built",
@@ -42,7 +45,8 @@
     "Text": "Mail.Arboretum.BuiltText",
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
-    "CustomTextColor": "SeaGreen",
+    "CustomTextColorName": "OliveDrab",
+		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -58,7 +62,8 @@
     "Text": "Mail.Arboretum.TapperText",
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
-    "CustomTextColor": "SeaGreen",
+    "CustomTextColorName": "OliveDrab",
+		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -74,13 +79,14 @@
     ]
   },
   {
-    "Id": "Arboretum.TapperExpansion"
+    "Id": "Arboretum.TapperExpansion",
     "GroupId": "Arboretum.FergillRepublicArborealSociety",
     "Title": "Mail.Arboretum.TapperExpansion",
     "Text": "Mail.Arboretum.TapperExpansionText",
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
-    "CustomTextColor": "SeaGreen",
+    "CustomTextColorName": "OliveDrab",
+		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -94,5 +100,67 @@
     "Buildings": [
       "Danehan.ArboretumSF.ArboretumMedium"
     ]
-  }
+  },
+	{
+		"Id": "Arboretum.ArboretumMagic",
+		"GroupId": "Arboretum.FerngillMinistryOfMagic",
+		"Title": "Mail.Arboretum.Magic",
+		"Text": "Mail.Arboretum.MagicText",
+		"LetterBG": "assets/MinistryOfMagicBG.png",
+		"UpperRightCloseButton": "assets/MinistryOfMagicClose.png",
+		"TextColor": 4,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"Buildings": [
+			"Danehan.ArboretumSF.ArboretumLarge"
+		],
+		"FriendshipConditions": [
+			"NpcName": "Wizard",
+			"FriendshipLevel": 8
+		],
+		"MailRecieved": [
+			"ccIsComplete"
+		]
+	},
+
+	//MODDED
+
+	///////////////////////////////////////////////////////////////////////
+
+	//SVE
+	//VMV
+	//RSV
+	{
+		"Id": "Arboretum.RSV",
+		"GroupId": "Arboretum.Modded",
+		"Title": "Mail.Arboretum.RSV",
+		"Text": "Mail.Arboretum.RSVText",
+		"WhichBG": 0,
+		"TextColor": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"HasMods": [
+			"Rafseazz.RidgesideVillage"
+		],
+		"EventsSeen": []
+	},
+	//BearFamily
+	{
+		"Id": "Arboretum.BearFamily",
+		"GroupId": "Arboretum.Modded",
+		"Title": "Mail.Arboretum.BearFamily",
+		"Text": "Mail.Arboretum.BearFamilyText",
+		"LetterBG": "assets/BearLetterBG.png",
+		"UpperRightCloseButton": "assets/BearFamClose.png",
+		"TextColor": 0,
+		"Repeatable": false,
+		"AutoOpen": false,
+		"HasMods": [
+			"MadDog.HashtagBearFam"
+		],
+		"EventsSeen": []
+	},
+	//PasserbyCemetary
+	//WAG
+	//DTZ
 ]

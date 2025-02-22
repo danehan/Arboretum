@@ -16,19 +16,23 @@
     },
     {
       "UniqueID": "Rafseazz.RidgesideVillage",
-      "IsRequired": false,
+      "IsRequired": false
     },
     {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-      "IsRequired": false,
+      "IsRequired": false
     },
     {
       "UniqueID": "Cornucopia.MoreCrops",
-      "IsRequired": false,
+      "IsRequired": false
     },
     {
       "UniqueID": "Lumisteria.MtVapius",
-      "IsRequired": false,
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "MadDog.HashtagBearFam",
+      "IsRequired": false
     }
   ]
 }
