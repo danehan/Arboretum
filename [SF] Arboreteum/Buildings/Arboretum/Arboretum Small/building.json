@@ -3,11 +3,9 @@
   "Name": "Building.Name.ArboretumSmall"
   "Description": "Building.Description.ArboretumSmall"
   //Aesthetics
-  "SourceRect": "0 0 48 32",
+  "SourceRect": "0 0 160 80",
   "DrawShadow": true,
-  "SeasonOffset": "48, 32",
-  "UpgradeSignTile": "0, 0",
-  "UpgradeSignHeight": 0.0,
+  "SeasonOffset": "160, 80",
   //Lights Todo
   "Lights": [
     {
@@ -65,16 +63,21 @@
   "NonInstancedIndoorLocation": "ArboretumSmall",
   //Outdoor Maps
   "Size": {
-    "X": 3,
-    "Y": 2
+    "X": 10,
+    "Y": 3
   },
   "HumanDoor": {
-    "X": 2,
-    "Y": 1
+    "X": 5,
+    "Y": 5
   },
-  //Mail Sent on Build
-  "AddMailOnBuild": "Arboretum.Built",
-  "CollisionMap": "XXX\nXXX",
+  "AuxiliaryHumanDoors": [
+    {
+      "X": 6,
+      "Y": 5
+    }
+  ],
+  "CollisionMap": "XXXXXXXXXX\nXXXXXXXXXX\nXXXXXXXXXX",
+  //Mail should be handled by MFM
   //Cost at Robin
   "Builder": "Robin",
   "BuildCost": 25000,

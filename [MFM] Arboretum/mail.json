@@ -1,5 +1,9 @@
 [
-//Ferngill Republic Arboreal Society
+
+	//Ferngill Republic Arboreal Society
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	{
 		"Id": "Arboretum.Welcome",
 		"GroupId": "Arboretum.FergillRepublicArborealSociety",
@@ -8,7 +12,7 @@
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
     "CustomTextColorName": "OliveDrab",
-		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
+		"UpperRightCloseButton": "assets/UpperButton_FRAS.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -29,7 +33,7 @@
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
     "CustomTextColorName": "OliveDrab",
-		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
+		"UpperRightCloseButton": "assets/UpperButton_FRAS.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -46,7 +50,7 @@
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
     "CustomTextColorName": "OliveDrab",
-		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
+		"UpperRightCloseButton": "assets/UpperButton_FRAS.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -63,7 +67,7 @@
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
     "CustomTextColorName": "OliveDrab",
-		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
+		"UpperRightCloseButton": "assets/UpperButton_FRAS.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -86,7 +90,7 @@
     //Aesthetics
     "LetterBG": "assets/FerngillRepublicBG.png",
     "CustomTextColorName": "OliveDrab",
-		"UpperRightCloseButton": "assets/FerngillRepublicClose.png",
+		"UpperRightCloseButton": "assets/UpperButton_FRAS.png",
     //Once
     "Repeatable": false,
     "AutoOpen": false,
@@ -101,13 +105,18 @@
       "Danehan.ArboretumSF.ArboretumMedium"
     ]
   },
+
+	//Ferngill Ministry of Magic
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	{
 		"Id": "Arboretum.ArboretumMagic",
 		"GroupId": "Arboretum.FerngillMinistryOfMagic",
 		"Title": "Mail.Arboretum.Magic",
 		"Text": "Mail.Arboretum.MagicText",
 		"LetterBG": "assets/MinistryOfMagicBG.png",
-		"UpperRightCloseButton": "assets/MinistryOfMagicClose.png",
+		"UpperRightCloseButton": "assets/UpperButton_MoM.png",
 		"TextColor": 4,
 		"Repeatable": false,
 		"AutoOpen": false,
@@ -125,7 +134,7 @@
 
 	//MODDED
 
-	///////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	//SVE
 	//VMV
@@ -142,7 +151,10 @@
 		"HasMods": [
 			"Rafseazz.RidgesideVillage"
 		],
-		"EventsSeen": []
+		"EventsSeen": [
+			//Kimpoi and Malaya Arrive may need Mod ID
+			75160251
+		]
 	},
 	//BearFamily
 	{
@@ -158,7 +170,9 @@
 		"HasMods": [
 			"MadDog.HashtagBearFam"
 		],
-		"EventsSeen": []
+		"EventsSeen": [
+			//Fersken Peach Tree may need Mod ID
+		]
 	},
 	//PasserbyCemetary
 	//WAG

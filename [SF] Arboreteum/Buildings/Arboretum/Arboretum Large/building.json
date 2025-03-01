@@ -3,10 +3,10 @@
   "Name": "Building.Name.ArboretumLarge"
   "Description": "Building.Description.ArboretumLarge"
   //Aesthetics
-  "SourceRect": //Add later "x y width height",
+  "SourceRect": "0 0 160 80",
   "DrawShadow": true,
-  "SeasonOffset": //SourceRect WH 0,0,
-  "UpgradeSignTile": //Add later XY "0, 0",
+  "SeasonOffset": 160, 80,
+  "UpgradeSignTile": //Add later XY "4, 5",
   "UpgradeSignHeight": //Add later 0.0,
   //Lights todo
   "Lights": [
@@ -63,16 +63,21 @@
   "IndoorMapType": "StardewValley.Locations.BuildableGameLocation",
   //Outdoor Maps
   "Size": {
-    "X": //replace,
-    "Y": //replace
+    "X": 10,
+    "Y": 3
   },
   "HumanDoor": {
-    "X": //replace,
-    "Y": //replace
+    "X": 5,
+    "Y": 5
   },
-  "CollisionMap": "",
-  //Mail Sent on Build
-  "AddMailOnBuild": "",
+  "AuxiliaryHumanDoors": [
+    {
+      "X": 6,
+      "Y": 5
+    }
+  ],
+  "CollisionMap": "XXXXXXXXXX\nXXXXXXXXXX\nXXXXXXXXXX",
+  //Mail should be handled by MFM
   //Cost at Robin
   "Builder": "Robin",
   "BuildCost": 100000,
@@ -95,22 +100,5 @@
   ],
   //Time to Build
   "BuildingDays": 2,
-  "BuildingToUpgrade": "Danehan.ArboretumSF.ArboretumMedium",
-  //Move Items Todo
-  "IndoorItemMoves": [
-    {
-      "Source": {
-        "X": //Add Num 0,
-        "Y": //Add Num 0
-      },
-      "Destination":{
-        "X": //Add Num 0,
-        "Y": //Add Num 0
-      },
-      "Size":{
-        "X": 1,
-        "Y": 1
-      }
-    }
-  ],
+  "BuildingToUpgrade": "Danehan.ArboretumSF.ArboretumMedium"
 }
